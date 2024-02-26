@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Lato;
+}
+
+    /* HEADER AND NAVIGATION */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+#logo {
+    font-size: 40px;
+    letter-spacing: 4px;
+}
+
+.main_nav {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_nav li {
+    margin: 10px;
+}
+
+    /* HOME */
+
+#home {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('resources/images/home_background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.home_contents {
+    color: white;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    letter-spacing: 7px;
+    font-size: 30px;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+
+/* ABOUT ME AND SKILLS */
+
+#about_me {
+    height: 600px;
+    width: 100%;
+}
