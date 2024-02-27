@@ -58,6 +58,12 @@ header {
     font-size: 30px;
 }
 
+.home_contents p {
+    margin: 40px;
+    letter-spacing: 3px;
+    font-size: 25px;
+}
+
 h1 {
     font-weight: 300;
 }
@@ -67,10 +73,10 @@ h1 {
 
 #about_me {
     display: grid;
-    height: 550px;
+    height: 600px;
     width: 100%;
     grid-template-columns: 2fr 1fr;
-    padding-top: 60px;
+    padding-top: 80px;
 }
 
 .skills img{
@@ -104,8 +110,42 @@ h2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-top: 30px;
+    padding-right: 50px;
 }
 
 .about_me_contents span {
     color: #0000c9;
+}
+
+
+    /* PROJECTS */
+
+#projects {
+    height: 600px;
+    width: 100%;
+    background-color: #DCDCDC;
+}
+
+#projects h2 {
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+#project_contents {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+#projects img {
+    height: 150px;
+    width: 250px;
+}
+
+#project_contents figcaption {
+    padding: 10px;
+    font-family: Lato, sans-serif;
+    font-size: 20px;
 }
