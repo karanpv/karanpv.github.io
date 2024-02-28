@@ -57,6 +57,15 @@ header {
     letter-spacing: 7px;
     font-size: 30px;
 }
+.home_contents span {
+    border: 2px solid white;
+    padding: 6px;
+    color: white;
+}
+
+.home_contents a {
+    text-decoration: none;
+}
 
 .home_contents p {
     margin: 40px;
