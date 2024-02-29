@@ -34,6 +34,16 @@ header {
     margin: 10px;
 }
 
+.main_nav a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+}
+
+
     /* HOME */
 
 #home {
